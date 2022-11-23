@@ -8,6 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.NavigationUI
+import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.labmember003.farmercompanion.databinding.ActivityMain2Binding
 import kotlin.system.exitProcess
 
@@ -93,6 +94,11 @@ class MainActivity2 : AppCompatActivity() {
             val intent = Intent(this, CropHealthActivity::class.java)
             startActivity(intent)
         }
+        findViewById<FloatingActionButton>(R.id.fab).setOnClickListener {
+            val intent = Intent(this, ChatActivity::class.java)
+            startActivity(intent)
+        }
+
 
     }
 
