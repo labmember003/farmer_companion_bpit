@@ -17,7 +17,7 @@ class LandActivity : AppCompatActivity() {
             startActivity(intent)
         }
         findViewById<TextView>(R.id.tvv2).setOnClickListener {
-            val intent = Intent(this, LendActivity::class.java)
+            val intent = Intent(this, LendFarmActivity::class.java)
             //intent.putExtra("crop", "Millets")
             startActivity(intent)
         }
