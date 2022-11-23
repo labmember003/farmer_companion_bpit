@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/resources"
+            android:title="mausi" />
+        <item
+            android:id="@+id/campusMap"
+            android:title="Campus Map"
+            />
+        <item
+            android:id="@+id/getDirections"
+            android:title="mausi"
+            android:checkable="false" />
+        <item
+            android:id="@+id/webviewFragment"
+            android:title="Result"
+            />
+    </group>
+
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/share"
+            android:title="mausi" />
+        <item
+            android:id="@+id/settingsFragment"
+            android:title="Settings" />
+
+    </group>
+</menu>
