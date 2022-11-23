@@ -4,9 +4,8 @@
     package="com.labmember003.farmercompanion">
 
     <uses-permission android:name="android.permission.INTERNET" />
-
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
@@ -20,12 +19,15 @@
         android:theme="@style/Theme.FarmerCompanion"
         tools:targetApi="31">
         <activity
+            android:name=".ToolsActivity"
+            android:exported="false" />
+        <activity
             android:name=".SettingsActivity"
             android:exported="false"
             android:label="@string/title_activity_settings" />
         <activity
             android:name=".MainActivity2"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -36,9 +38,7 @@
             android:name=".MainActivity"
             android:exported="false"
             android:label="@string/app_name"
-            android:theme="@style/Theme.FarmerCompanion">
-
-        </activity>
+            android:theme="@style/Theme.FarmerCompanion"></activity>
     </application>
 
 </manifest>
