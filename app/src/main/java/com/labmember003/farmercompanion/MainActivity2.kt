@@ -70,6 +70,32 @@ class MainActivity2 : AppCompatActivity() {
             startActivity(intent)
         }
 
+
+
+
+
+
+        // BOTTOM NAVIGATION
+//        findViewById<ImageView>(R.id.nv1).setOnClickListener {
+//            val intent = Intent(this, MainActivity::class.java)
+//            startActivity(intent)
+//        }
+        findViewById<ImageView>(R.id.nv2).setOnClickListener {
+            val intent = Intent(this, ToolsActivity::class.java)
+//            intent.putExtra("crop", "Rice")
+            startActivity(intent)
+        }
+        findViewById<ImageView>(R.id.nv3).setOnClickListener {
+            val intent = Intent(this, LandActivity::class.java)
+//            intent.putExtra("crop", "Rice")
+            startActivity(intent)
+        }
+        findViewById<ImageView>(R.id.nv4).setOnClickListener {
+            val intent = Intent(this, CropHealthActivity::class.java)
+//            intent.putExtra("crop", "Rice")
+            startActivity(intent)
+        }
+
     }
 
 
