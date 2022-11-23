@@ -19,6 +19,9 @@
         android:theme="@style/Theme.FarmerCompanion"
         tools:targetApi="31">
         <activity
+            android:name=".EmploymentActivity"
+            android:exported="false" />
+        <activity
             android:name=".CropHealthActivity"
             android:exported="false" />
         <activity

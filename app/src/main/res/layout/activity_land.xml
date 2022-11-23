@@ -5,5 +5,80 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LandActivity">
+    <LinearLayout
+        android:layout_marginTop="150dp"
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/ll2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvv1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:text="EMPLOYMENT"
+            android:textSize="50dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ll1">
+
+        <TextView
+            android:id="@+id/tvv2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:text="LEND A FARM"
+            android:textSize="50dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_marginTop="270dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ll2"
+        >
+        <ImageView
+            android:id="@+id/nv1"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            app:srcCompat="@drawable/ic_baseline_agriculture_24"
+            />
+        <ImageView
+            android:id="@+id/nv2"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            app:srcCompat="@drawable/ic_baseline_settings_24"
+            />
+        <ImageView
+            android:id="@+id/nv3"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            app:srcCompat="@drawable/ic_baseline_landscape_24"
+            />
+        <ImageView
+            android:id="@+id/nv4"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            app:srcCompat="@drawable/ic_baseline_health_and_safety_24"
+            />
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

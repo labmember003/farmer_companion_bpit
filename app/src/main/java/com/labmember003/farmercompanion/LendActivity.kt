@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.Toast
+import kotlin.system.exitProcess
 
 class LendActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -13,4 +14,5 @@ class LendActivity : AppCompatActivity() {
             Toast.makeText(this, "Successfully Submited", Toast.LENGTH_SHORT).show()
         }
     }
+
 }

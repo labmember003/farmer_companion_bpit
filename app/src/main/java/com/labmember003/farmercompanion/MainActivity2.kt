@@ -9,6 +9,7 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.NavigationUI
 import com.labmember003.farmercompanion.databinding.ActivityMain2Binding
+import kotlin.system.exitProcess
 
 class MainActivity2 : AppCompatActivity() {
     private lateinit var appBarConfiguration: AppBarConfiguration
@@ -94,6 +95,7 @@ class MainActivity2 : AppCompatActivity() {
         }
 
     }
+
 
 
 }

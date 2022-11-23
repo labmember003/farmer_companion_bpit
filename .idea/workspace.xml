@@ -13,10 +13,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74f3afbc-9a5d-451e-9efb-bbdbdf33f57a" name="Changes" comment="trying implementting toolbar, navcontroller etc">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/labmember003/farmercompanion/EmploymentActivity.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/axe.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/plough.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/saw_axe.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/tractor.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_employment.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/simple_android_contact_form_ui_design.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.3/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.3/checksums/sha1-checksums.bin" afterDir="false" />
@@ -33,11 +35,20 @@
       <change beforePath="$PROJECT_DIR$/.idea/modules/app/Farmer_Companion.app.unitTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/Farmer_Companion.app.unitTest.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/labmember003/farmercompanion/ChatActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/labmember003/farmercompanion/ChatActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/labmember003/farmercompanion/CropHealthActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/labmember003/farmercompanion/CropHealthActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/labmember003/farmercompanion/LandActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/labmember003/farmercompanion/LandActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/labmember003/farmercompanion/LendActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/labmember003/farmercompanion/LendActivity.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/labmember003/farmercompanion/MainActivity2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/labmember003/farmercompanion/MainActivity2.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/labmember003/farmercompanion/ToolsActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/labmember003/farmercompanion/ToolsActivity.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_buy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_buy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_crop_health.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_crop_health.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_land.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_land.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_tools.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_tools.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +95,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android-custom-view/Users/avi/Library/Android/sdk/sources/android-32/android/view/View.java_SELECTED" value="View" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout" />
