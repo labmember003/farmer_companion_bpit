@@ -30,14 +30,14 @@ class LandActivity : AppCompatActivity() {
             val intent = Intent(this, ToolsActivity::class.java)
             startActivity(intent)
         }
-        findViewById<ImageView>(R.id.nv3).setOnClickListener {
-            val intent = Intent(this, LandActivity::class.java)
-            startActivity(intent)
-        }
-//        findViewById<ImageView>(R.id.nv4).setOnClickListener {
-//            val intent = Intent(this, CropHealthActivity::class.java)
+//        findViewById<ImageView>(R.id.nv3).setOnClickListener {
+//            val intent = Intent(this, LandActivity::class.java)
 //            startActivity(intent)
 //        }
+        findViewById<ImageView>(R.id.nv4).setOnClickListener {
+            val intent = Intent(this, CropHealthActivity::class.java)
+            startActivity(intent)
+        }
     }
 
 }
