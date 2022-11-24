@@ -2,6 +2,7 @@ package com.labmember003.farmercompanion
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.View
 import android.widget.ImageView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -94,6 +95,7 @@ class MainActivity2 : AppCompatActivity() {
             val intent = Intent(this, CropHealthActivity::class.java)
             startActivity(intent)
         }
+        findViewById<FloatingActionButton>(R.id.fab).visibility = View.INVISIBLE
         findViewById<FloatingActionButton>(R.id.fab).setOnClickListener {
             val intent = Intent(this, ChatActivity::class.java)
             startActivity(intent)

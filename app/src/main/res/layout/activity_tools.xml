@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".ToolsActivity">
 
+
     <LinearLayout
         android:layout_marginTop="150dp"
         android:id="@+id/ll1"

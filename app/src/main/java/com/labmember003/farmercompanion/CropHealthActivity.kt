@@ -12,6 +12,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.cardview.widget.CardView
 import kotlin.system.exitProcess
 
 
@@ -86,6 +87,7 @@ class CropHealthActivity : AppCompatActivity() {
         }
         camera_open_id.visibility = View.INVISIBLE
         findViewById<TextView>(R.id.plantAbout).visibility = View.VISIBLE
+        findViewById<CardView>(R.id.cardView1).visibility = View.INVISIBLE
 
     }
 

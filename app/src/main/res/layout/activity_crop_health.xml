@@ -41,16 +41,58 @@
         app:layout_constraintTop_toBottomOf="@+id/toolbar"
         app:layout_constraintStart_toStartOf="parent"
         />
-    <Button
-        android:id="@+id/camera_button"
-        android:layout_width="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
+
+
+    <androidx.cardview.widget.CardView
+
+        android:layout_marginStart="20dp"
+        android:id="@+id/cardView1"
+        android:layout_marginTop="100dp"
+        android:layout_width="370dp"
         android:layout_height="wrap_content"
-        android:text="Scan"
-        />
+        android:elevation="2dp"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:paddingLeft="10dp"
+                android:text="Scan your crops to predict quality \n and growth of your crop and also \n Diagnose any plant disease in \n advance "
+                android:textSize="24dp"
+                app:layout_constraintBottom_toTopOf="@+id/camera_button"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/toolbar" />
+
+            <Button
+                android:id="@+id/camera_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Scan"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/toolbar"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
 
     <TextView
         android:id="@+id/plantAbout"

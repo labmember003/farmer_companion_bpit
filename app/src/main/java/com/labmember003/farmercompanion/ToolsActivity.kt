@@ -11,6 +11,9 @@ class ToolsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_tools)
+
+
+
         findViewById<TextView>(R.id.tv1).setOnClickListener {
             val intent = Intent(this, BuyActivity::class.java)
             //intent.putExtra("crop", "Millets")
@@ -21,6 +24,9 @@ class ToolsActivity : AppCompatActivity() {
             //intent.putExtra("crop", "Millets")
             startActivity(intent)
         }
+
+
+
         // BOTTOM NAVIGATION
         findViewById<ImageView>(R.id.nv1).setOnClickListener {
             val intent = Intent(this, MainActivity2::class.java)

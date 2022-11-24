@@ -2,9 +2,10 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFCDD2"
+    android:background="#FFFFFF"
     android:orientation="vertical"
-    android:padding="16dp">
+
+    android:padding="60dp">
 
     <TextView
         android:id="@+id/contact_form_title"
@@ -13,16 +14,17 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="16dp"
         android:layout_marginTop="5dp"
-        android:text="Viral Android"
-        android:textColor="#ce3232"
-        android:textSize="40sp"
+        android:text="Lend Your Tools"
+        android:textColor="#000000"
+        android:textSize="30sp"
         android:typeface="serif" />
 
     <EditText
+        android:layout_marginTop="50dp"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/colorPrimaryDark"
-        android:hint="Name"
+        android:hint="Tool Name"
         android:inputType="textPersonName" />
 
     <EditText
@@ -31,14 +33,14 @@
         android:layout_marginBottom="10dp"
         android:layout_marginTop="10dp"
         android:backgroundTint="@color/colorPrimaryDark"
-        android:hint="Email"
-        android:inputType="textEmailAddress" />
+        android:hint="Rent Price"
+        android:inputType="phone" />
 
     <EditText
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/colorPrimaryDark"
-        android:hint="Phone"
+        android:hint="Your Contact"
         android:inputType="phone" />
 
     <EditText
@@ -48,22 +50,19 @@
         android:layout_marginTop="10dp"
         android:backgroundTint="@color/colorPrimaryDark"
         android:gravity="top"
-        android:hint="Your Message"
+        android:hint="Tool Description"
         android:fitsSystemWindows="true"
         android:breakStrategy="balanced"
         android:inputType="textMultiLine"
         android:singleLine="false"
         android:padding="5dp" />
 
+
     <Button
         android:id="@+id/submit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:background="@color/colorPrimaryDark"
-        android:elevation="4dp"
-        android:paddingLeft="70dp"
-        android:paddingRight="70dp"
         android:text="Submit"
-        android:textColor="#fff" />
+        />
 </LinearLayout>
