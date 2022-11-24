@@ -64,7 +64,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Stipend: $20K"
+                    android:text="Stipend: ₹27K"
                     />
                 <TextView
                     android:layout_width="wrap_content"
@@ -106,16 +106,16 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Address Of Land: 35A, Vikrant Encalve Mayapuri, Phulera" />
+                android:text="Address Of Land: 2nd Street, Rampur, Rajasthan" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Stipend: $20K"
+                android:text="Stipend: ₹20K"
                 />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Working Hours: 9AM-5PM"
+                android:text="Working Hours: 9AM-4PM"
                 />
             <ImageView
                 android:id="@+id/farmDirection2"
@@ -153,11 +153,11 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Address Of Land: 35A, Vikrant Encalve Mayapuri, Phulera" />
+            android:text="Address Of Land: B 536, Viswas Nagar, Surajmal Vihar" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Stipend: $20K"
+            android:text="Stipend: ₹30K"
             />
         <TextView
             android:layout_width="wrap_content"

@@ -42,7 +42,7 @@ class CropHealthActivity : AppCompatActivity() {
         camera_open_id = findViewById(R.id.camera_button)
         click_image_id = findViewById(R.id.click_image)
         text = findViewById(R.id.plantAbout)
-        text.text = "Name: ${name}, Diagnosis: ${Diaganosis}, Plant Health: ${healthPercent} %, Recomended Care: ${care}"
+        text.text = "Name: ${name} \nDiagnosis: ${Diaganosis} \nPlant Health: ${healthPercent} % \nRecomended Care: ${care}"
         findViewById<TextView>(R.id.plantAbout).visibility = View.INVISIBLE
 
 

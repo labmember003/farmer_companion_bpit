@@ -95,12 +95,11 @@ class MainActivity2 : AppCompatActivity() {
             val intent = Intent(this, CropHealthActivity::class.java)
             startActivity(intent)
         }
-        findViewById<FloatingActionButton>(R.id.fab).visibility = View.INVISIBLE
+        findViewById<FloatingActionButton>(R.id.fab).visibility = View.VISIBLE
         findViewById<FloatingActionButton>(R.id.fab).setOnClickListener {
             val intent = Intent(this, ChatActivity::class.java)
             startActivity(intent)
         }
-
 
     }
 

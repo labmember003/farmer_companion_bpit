@@ -16,11 +16,12 @@
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_volley_volley_1_2_1_aar.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/MessageModal.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_android_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_message_24.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_supervised_user_circle_24.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/receive_round_box.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/round_button.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/send_round_box.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_tools_test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_land_test.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/bot_msg.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/message_item.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/user_msg.xml" afterDir="false" />
@@ -48,9 +49,11 @@
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_chat.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_chat.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_crop_health.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_crop_health.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_employment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_employment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_land.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_land.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_lend_farm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_lend_farm.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_tools.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_tools.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_tools_test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_tools_test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/simple_android_contact_form_ui_design.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/simple_android_contact_form_ui_design.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
     </list>
