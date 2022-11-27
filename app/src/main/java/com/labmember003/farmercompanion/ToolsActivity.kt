@@ -45,5 +45,9 @@ class ToolsActivity : AppCompatActivity() {
             startActivity(intent)
         }
     }
+    override fun onBackPressed() {
+        val intent = Intent(this, MainActivity2::class.java)
+        startActivity(intent)
+    }
 
 }

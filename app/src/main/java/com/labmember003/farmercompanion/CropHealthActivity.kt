@@ -91,6 +91,11 @@ class CropHealthActivity : AppCompatActivity() {
 
     }
 
+    override fun onBackPressed() {
+        val intent = Intent(this, MainActivity2::class.java)
+        startActivity(intent)
+    }
+
 
 
 

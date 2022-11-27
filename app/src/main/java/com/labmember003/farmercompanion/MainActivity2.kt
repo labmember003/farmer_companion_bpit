@@ -103,6 +103,10 @@ class MainActivity2 : AppCompatActivity() {
 
     }
 
+    override fun onBackPressed() {
+        finishAffinity()
+    }
+
 
 
 }
