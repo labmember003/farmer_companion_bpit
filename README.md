@@ -3,7 +3,6 @@
 </p><h2>Technologies Used</h2>
 <hr><ul>
 <li>Java, Kotlin, Node.JS, Python, Pytorch</li>
-<li>Pytorch</li>
 </ul>
 <h2>Screenshot</h2>
 <p>
